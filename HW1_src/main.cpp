@@ -226,8 +226,8 @@ void display()
 	DrawClock();
 	glPopMatrix();
 
-	// �޿�G�C�Ӫ��鳣���ۤv�W�ߪ��y�Шt�ΡA
-	// �]����֥d�C���b���I����A������A�|�O���઺�ˤl�A�Y�O�������A����A�N�O���઺�ĪG
+	// 邏輯：每個物體都有自己獨立的座標系統，
+	// 因此當皮卡丘先在原點旋轉再平移後，會是公轉的樣子，若是先平移再旋轉，就是自轉的效果
 	glPushMatrix();
 	glRotatef(curM, 0, 1, 0);
 	// curP is in DrawPikachu()
