@@ -94,12 +94,12 @@ Vertex hexaVtx[6] = {
 };
 
 Vertex SixTriVtx[6][3] = {
-	{Vertex(0				, 0,  2*triHeight),	hexaVtx[0], hexaVtx[5]},
+	{Vertex(0		, 0,  2*triHeight),	hexaVtx[0], hexaVtx[5]},
 	{Vertex(3*triHalfSide	, 0,    triHeight),	hexaVtx[1], hexaVtx[0]},
-	{Vertex(3*triHalfSide	, 0,   -triHeight), hexaVtx[2], hexaVtx[1]},
-	{Vertex(0				, 0, -2*triHeight), hexaVtx[3], hexaVtx[2]},
-	{Vertex(-3*triHalfSide	, 0,   -triHeight), hexaVtx[4], hexaVtx[3]},
-	{Vertex(-3*triHalfSide	, 0,    triHeight), hexaVtx[5], hexaVtx[4]},
+	{Vertex(3*triHalfSide	, 0,   -triHeight), 	hexaVtx[2], hexaVtx[1]},
+	{Vertex(0		, 0, -2*triHeight), 	hexaVtx[3], hexaVtx[2]},
+	{Vertex(-3*triHalfSide	, 0,   -triHeight), 	hexaVtx[4], hexaVtx[3]},
+	{Vertex(-3*triHalfSide	, 0,    triHeight), 	hexaVtx[5], hexaVtx[4]},
 };
 Vertex SoilVtx(0, -5, 0);
 Vertex TwlRecVtx[12][4] = {
